@@ -7,8 +7,9 @@ class shopping:
     origin = 'china'
 
     def __init__(self,name, location) -> None:
-        self.name = 'syllhet' # instance attribute
+        self.name = name # instance attribute
         self.location = 'jam er maj khane'
+        self.location = location
 
     def purchase(self, item, price, amount):
         remaining = amount - price
